@@ -1,0 +1,178 @@
+.nav {
+    background-color: #ac9e9e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-content {
+    list-style-type: none;
+    display: flex;
+    text-indent: -1em;
+}
+.nav-content a {
+    display: block;
+    
+    position: relative;
+    color:rgb(240, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+/* Hover effect for nav links */
+.nav-content a:hover {
+    color: rgb(63, 73, 73);
+    background-color: #d3caca;
+    text-decoration: underline;
+}
+
+.image-card {
+    padding: 25px;
+    border: 1px solid #c7c0c0;
+    float: left;
+    width: 27%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1.5%;
+    margin-right: 1.5%
+  }
+  
+  /* Hover effect for image card */
+  .image-card:hover {
+    border: 2px solid #706d6d;
+    background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgb(172, 172, 172, 0.7));
+  }
+
+  .image-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Hover effect for image */
+  .image-card img:hover {
+    transform: scale(1.25);
+    border: 1px solid #c7c0c0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 #999695,0 4px 8px 0 #6c6866;
+  }
+  
+  .section-header {
+    float: left;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .button-container {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    width: 100%;
+    border: none;
+  }
+
+  .button {
+    display: inline-block;
+    background: rgb(182, 206, 225);
+    color: #000000;
+    padding: 15px 15px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: rgb(137, 158, 176);;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%
+  }
+
+  .button:hover {
+    transform: scale(1.1);
+    background: rgba(45, 76, 101, 0.719);
+    text-decoration: underline;
+    color: white;
+    border: none;
+    box-shadow: 0 6px 8px 0 #575757,0 10px 20px 0 #575757;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+ label {
+    justify-content: left;
+    display:block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-width: 0;
+    box-sizing: border-box;
+}
+
+
+/* Hover effect for text input */
+input:hover,textarea:hover {
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 #999695,0 4px 8px 0 #6c6866;
+
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+
+  .user-form-button {
+    display: inline-block;
+    font-family:'Times New Roman', Times, serif;
+    background: rgb(225, 200, 182);
+    color: #000000;
+    padding: 10px 10px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: rgb(195, 173, 157);
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 50%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+/* Hover effect for form submit button */
+  .user-form-button:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgb(210, 138, 91));
+    text-decoration:double;
+    font-style: italic;
+    border: none;
+    box-shadow: 0 8px 12px 0 #999695,0 17px 50px 0 #6c6866;
+  }
+
+  footer {
+    float:left;
+    background-color: #ac9e9e;
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+  }

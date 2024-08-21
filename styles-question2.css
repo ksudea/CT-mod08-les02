@@ -1,0 +1,151 @@
+
+header, .section-header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Nav styling */
+
+.nav {
+    background-image: linear-gradient(to bottom right, rgba(212, 197, 197, 0.6), rgba(183, 161, 210, 0.7));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-content {
+    list-style-type: none;
+    list-style-image: url("scribble.png");
+    display: flex;
+}
+.nav-content a {
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+li {
+    text-indent: -1.4em;
+    margin-right: 2em;
+  }
+/* Effects for nav links */
+.nav-content a:hover {
+    color: rgb(63, 73, 73);
+    text-decoration: underline;
+    font-size: 1.15em;
+}
+
+a:visited {
+    color: rgb(72, 23, 105);
+}
+
+/* Form styling */
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Effects for input hovers and focus */
+
+input:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 #999695,0 4px 8px 0 #6c6866;
+  }
+
+
+input:focus {
+    border-color: rgb(179, 183, 182);
+    box-shadow: 0 0 8px rgba(74,144,226,0.5);
+    font-weight: bold;
+}
+
+label {
+    display:block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+}
+
+button {
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Effects for button hovers */
+
+button:hover {
+    background-color: rgba(183, 161, 210, 0.7);
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px 0 #999695,0 4px 8px 0 #6c6866;
+}
+
+/* Table styling */
+
+table.product-list {
+    width:80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
+}
+table.product-list th, table.product-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+
+}
+table.product-list tr:nth-child(even) {
+    background-color: rgba(183, 161, 210, 0.3);
+}
+
+/* Effects for table hovers */
+
+table.product-list tr:hover {
+    font-weight: bold;
+    background-color:rgba(106, 104, 104, 0.5)
+}
+
+table.product-list tr:nth-child(even):hover {
+    background-color: rgba(183, 161, 210, 0.7);
+}
+
+table.product-list th:hover, table.product-list td:hover {
+    background-color: antiquewhite;
+}
+
+footer {
+    float:left;
+    background-image: linear-gradient(to bottom left, rgba(212, 197, 197, 0.6), rgba(183, 161, 210, 0.7));
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+  }
